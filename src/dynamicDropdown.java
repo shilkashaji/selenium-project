@@ -16,7 +16,7 @@ public class dynamicDropdown {
 		driver.findElement(By.xpath("//*[@id=\"dropdownGroup1\"]/div/ul[1]/li[6]/a")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("(//a[@value='MAA'])[2]")).click();
-		
+		driver.findElement(By.cssSelector(".ui-state-default.ui-state-highlight")).click();
 		
 		
 		
