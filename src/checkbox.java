@@ -36,11 +36,6 @@ public class checkbox {
 	    }
 		
 		
-		
-		
-		
-		
-		
 		System.out.println(driver.findElements(By.cssSelector("input[type='checkbox']")).size());
 		driver.findElement(By.id("divpaxinfo")).click();
 		Thread.sleep(2000);
