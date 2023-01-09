@@ -1,11 +1,8 @@
-import java.time.Duration;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+//import org.openqa.selenium.By;
+//import org.openqa.selenium.Keys;
+ import org.openqa.selenium.WebDriver;
+//import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 
 public class MouseActions {
 
@@ -19,10 +16,10 @@ public class MouseActions {
 
 		driver.get("https://www.amazon.com");	
 		Thread.sleep(3000);
-		Actions a = new Actions(driver);
+		/*Actions a = new Actions(driver);
 		WebElement move= driver.findElement(By.cssSelector("#nav-link-accountList > span"));
 		a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("Hello").doubleClick().build().perform();
-		a.moveToElement(move).build().perform();
+		a.moveToElement(move).build().perform();*/
 		
 		
 		
