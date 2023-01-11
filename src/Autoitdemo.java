@@ -12,6 +12,7 @@ public class Autoitdemo {
 	}
 	public static void test() throws Exception {
 		// TODO Auto-generated method stub
+		
 
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\user\\Desktop\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
